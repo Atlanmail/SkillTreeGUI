@@ -36,7 +36,7 @@ graphClass.__index = graphClass
     TO DO
     Write a method that verifies if the input has the proper structure, otherwise return bad structure.
 ]]
-function graphClass.new(input) --- inputs must be in the proper structure
+function graphClass.new(input) --- input is a linked list table like above
     local newGraph = {}
 	setmetatable(newGraph, graphClass)
 	newGraph.graph = {}
